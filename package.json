@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "ts-node app",
-    "debug": "ts-node-dev app",
+    "debug": "ts-node-dev --respawn app",
     "watch": "tsc --watch"
   },
   "repository": {
@@ -21,6 +21,7 @@
   "dependencies": {
     "@types/node": "^14.14.31",
     "draftlog": "^1.0.12",
+    "input": "^1.0.1",
     "keypress": "^0.2.1",
     "open": "^8.0.2"
   },
